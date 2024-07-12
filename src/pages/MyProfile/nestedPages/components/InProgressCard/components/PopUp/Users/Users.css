@@ -1,0 +1,61 @@
+.imagesDiv {
+    /*width: 100px;*/
+    height: 24px;
+    position: relative;
+    display: flex;
+    margin: 15px 15px 0 4px !important;
+}
+
+.imagesDiv>div {
+    margin: 0 0 0 -4px;
+}
+
+.imagesDiv img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.imagesDiv .defaultBox {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px dashed rgba(196, 196, 196, 1);
+    color: rgba(196, 196, 196, 1);
+    cursor: pointer;
+}
+
+.imagesDiv .defaultBox:hover {
+    border: 1px solid rgba(196, 196, 196, 1);
+}
+
+.menueBox {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    outline: 2px solid lightgray;
+    border-radius: 15px;
+    background: #fff;
+    width: 200px;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.textMenueBox {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: rgba(10, 12, 26, 0.89);
+}
+
+.menueBoxDiv {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 7px 0 7px 20px;
+}
+
+.menueBoxDiv:hover {
+    background-color: powderblue;
+}

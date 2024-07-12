@@ -1,0 +1,1 @@
+export const SET_MEMBER_DETAILS = "SET_MEMBER_DETAILS";

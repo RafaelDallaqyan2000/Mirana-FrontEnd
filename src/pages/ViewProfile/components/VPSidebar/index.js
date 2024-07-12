@@ -1,0 +1,1 @@
+export { VPSidebar} from "./VPSidebar";

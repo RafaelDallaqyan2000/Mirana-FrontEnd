@@ -1,0 +1,9 @@
+export { setNameUpdate } from "./setNameUpdate";
+export { setLastNameUpdate } from "./setLastNameUpdate";
+export { setFirstNameUpdate } from "./setFirstNameUpdate";
+export { setEmailUpdate } from "./setEmailUpdate";
+export { setConfirmPasswordUpdate } from "./setConfirmPasswordUpdate";
+export { setUpPasswordUpdate } from "./setPasswordUpdate";
+export { setDateUpdate } from "./setDateUpdate";
+export { setPhoneUpdate } from "./setPhoneUpdate";
+export { setToken } from "./setToken";

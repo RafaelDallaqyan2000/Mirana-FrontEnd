@@ -1,0 +1,143 @@
+.container {
+    height: 820px;
+    display: flex;
+    overflow: hidden;
+}
+.leftDiv {
+    padding: 40px 40px 27px ;
+    border-right: 1px solid #E9E9E9;
+    overflow-y: auto;
+    width: 638px;
+}
+.leftDiv::-webkit-scrollbar, .rightDiv::-webkit-scrollbar {
+    width: 6px;
+    background: rgba(231, 231, 231, 0.4);
+}
+.leftDiv::-webkit-scrollbar-thumb, .rightDiv::-webkit-scrollbar-thumb {
+    background: rgba(231, 231, 231, 0.72);
+    border-radius: 6px;
+}
+
+.leftDiv > ul {
+    list-style-position: inside
+}
+
+.title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.74);
+}
+.projectName {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 24px;
+    color: rgba(0, 0, 0, 0.48);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px ;
+}
+
+.projectName ul {
+    margin-left: 17px;
+    display: flex;
+    gap : 15px
+}
+.projectName ul li {
+    margin: 0 7px;
+}
+.projectName > ul li::marker {
+    color : #858585;
+}
+.description, .attachmentContainer {
+    padding: 30px 0 0 ;
+}
+.description > li, .attachmentContainer > li {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #405051;
+    margin-bottom: 15px;
+}
+.description > li::marker, .attachmentContainer > li::marker {
+    margin: 0 ;
+    padding : 0 ;
+}
+
+
+.activities {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #405051;
+    margin: 30px 0 15px;
+
+}
+
+.flexDiv {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    padding-bottom: 9px;
+}
+.flexDiv :nth-child(1) {
+    padding: 0;
+
+}
+.rightDiv {
+    /*min-width: 316px;*/
+    padding: 40px 36px ;
+    overflow: auto;
+}
+
+.optionsAndCloseIcons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 28px;
+}
+.closePopUp {
+    margin: 2px 2px 0 23px;
+    color : #fff;
+    padding: 1px;
+    cursor : pointer;
+}
+
+.optionsPopUp {
+    cursor : pointer;
+}
+
+.textAttribute {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.74);
+}
+
+.textStatus {
+    margin: 20px 0 6px ;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: rgba(10, 12, 26, 0.55);
+}
+.actionDiv {
+    margin-top: 55px;
+}
+.actionDiv > .actions {
+    margin-top: 10px;
+}

@@ -1,0 +1,35 @@
+.selectPro::-webkit-scrollbar {
+    width: 6px;
+    background: rgba(231, 231, 231, 0.4);
+}
+.selectPro::-webkit-scrollbar-thumb {
+    background: rgba(231, 231, 231, 0.72);
+    border-radius: 6px;
+}
+.selectPro .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5) !important;
+    opacity: 0.48 !important;
+}
+.selectPro .project {
+    margin-top: 5px;
+    padding: 10px 10px 10px 12px;
+    border-top: 1px solid #E9E9E9;
+    font-weight: 700 !important;
+    fontSize: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+/*.leftDiv::-webkit-scrollbar, .rightDiv::-webkit-scrollbar {*/
+/*    width: 6px;*/
+/*    background: rgba(231, 231, 231, 0.4);*/
+/*}*/
+/*.leftDiv::-webkit-scrollbar-thumb, .rightDiv::-webkit-scrollbar-thumb {*/
+/*    background: rgba(231, 231, 231, 0.72);*/
+/*    border-radius: 6px;*/
+/*}*/

@@ -1,0 +1,98 @@
+.boxMenu > div > a > img {
+  width: 20px;
+  height: 20px;
+}
+.boxSidebar > div > img:hover{
+  cursor: pointer;
+}
+.smallScreen {
+  display: none;
+}
+
+.blueIcon {
+  display: none;
+}
+.active > .whiteIcon {
+  display: none;
+}
+.active > .blueIcon {
+  display: inline;
+}
+
+.boxSidebar > div:first-child {
+  padding: 30px 0 60px 30px;
+}
+.boxSidebar {
+  height: 100vh;
+  width: 200px;
+  /* max-width: 300px; */
+  padding: 0 15px;
+  margin-right: 3px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.18);
+  background-color: white;
+  transition: 0.6s;
+}
+.boxSidebar > .boxMenu {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-left: 30px;
+}
+.nav-item-text {
+  font-family: "Montserrat";
+  display: inline;
+  font-weight: 500 ;
+  font-size: 14px;
+  text-decoration: none;
+  padding-left: 15px;
+}
+
+.boxSidebarClosed {
+  width: 70px;
+}
+.boxSidebarClosed > .boxMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+.boxSidebarClosed .nav-item-text {
+  display: none;
+}
+
+@media screen and (max-width: 1150px) {
+  .smallScreen {
+    display: inline;
+  }
+  .bigScreen {
+    display: none;
+  }
+  .boxSidebarClosed {
+    height: 100vh;
+    width: 200px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.18);
+  }
+  .boxMenu{
+    width: 200px;
+  }
+  .boxSidebarClosed .nav-item-text {
+    display: inline;
+  }
+  .smBoxSidebarClosed .nav-item-text {
+    display: none;
+  }
+  .smBoxSidebarClosed {
+    width: 70px;
+  }
+  .smBoxSidebarClosed .boxMenu {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+  }
+}

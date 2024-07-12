@@ -1,0 +1,98 @@
+.bodyInTimesheet {
+    height: 100%;
+}
+.bodyInTimesheet .headerBox {
+    margin-bottom: 20px;
+}
+.bodyInTimesheet .headerSpan {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+.bodyInTimesheet .main {
+    padding: 0 10px 20.5px;
+    display: flex;
+
+}
+.main .id {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #405051;
+    margin-left: 13px;
+}
+.main .type {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #405051;
+    margin-left: 33px;
+}
+.main .description {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #405051;
+    padding: 0;
+    margin-left: 51px;
+}
+.main .startTime {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #405051;
+    margin: 0 30px 0 110px;
+}
+.main .endTime {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #405051;
+    margin: 0 30px ;
+}
+.main .duration {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #405051;
+    margin: 0 30px;
+    width: 87px;
+}
+.main .date {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #405051;
+    margin: 0 11px 0 7px;
+    width: 62px;
+}
+.bodyInTimesheet .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 47px;
+    padding-bottom: 44px;
+}
+.css-indpwm{
+    border:none;
+}

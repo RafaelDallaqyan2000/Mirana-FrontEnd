@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.table{
+    padding:6px;
+    width: calc(100vw - 606px);
+}
+.table thead,
+.table tr {
+  /* min-width: 60vw; */
+}
+.table,
+.table th {
+  background-color: #fff;
+  border-collapse: collapse;
+  
+}
+.table th,
+.table td {
+  /* height: 70px; */
+  padding: 0 15px;
+}
+.table td {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+.table tr:hover {
+  background-color: rgba(56, 150, 201, 0.07);
+  box-shadow: 0px 4px 12px rgba(56, 150, 201, 0.19);
+  border-radius: 2px;
+}
+.table thead > th:first-child,
+.table tr > td:first-child {
+  /* min-width: 50px; */
+  padding: 28px 21px 28px 21px;
+  text-align: center;
+}
+.table thead > th:nth-child(2),
+.table tr > td:nth-child(2) {
+  word-break: break-all;
+  min-width: 50px;
+  text-align: start;
+}
+.table thead > th:nth-child(3),
+.table tr > td:nth-child(3) {
+  min-width: 50px;
+  text-align: start;
+}
+.table thead > th:nth-child(4),
+.table tr > td:nth-child(4) {
+  min-width: 80px;
+  text-align: start;
+}
+.table thead > th:nth-child(5),
+.table tr > td:nth-child(5) {
+  min-width: 100px;
+  text-align: start;
+}
+.table thead > th:nth-child(6),
+.table tr > td:nth-child(6) {
+  min-width: 120px;
+  text-align: start;
+}
+.action {
+  width: 85px;
+  height: 24px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: Montserrat;
+  border-radius: 2px;
+}
+.Success {
+  background: linear-gradient(
+    270deg,
+    rgba(93, 205, 50, 0.88) 61.14%,
+    rgba(50, 205, 50, 0) 154.46%
+  );
+}
+.SoSo {
+  background: linear-gradient(
+    270deg,
+    #ece53a 45.54%,
+    rgba(236, 229, 58, 0) 188.39%
+  );
+}
+.Failed {
+  background: linear-gradient(
+    270deg,
+    #e5493a 50%,
+    rgba(229, 73, 58, 0) 230.36%
+  );
+}

@@ -1,0 +1,59 @@
+.bodyInInputForCommentsComponent {
+    display: flex;
+    flex-direction: column;
+}
+.bodyInInputForCommentsComponent > .inputContainer {
+    display: flex;
+    align-items: flex-start;
+    width : 100%;
+}
+.divInputTextField {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(11, 42, 58, 0.12);
+    border-radius: 4px;
+    text-align: center;
+    width: 100%;
+}
+.divAvatar {
+    width : 31px;
+    height: 31px;
+    padding: 0 12px;
+}
+.inputTextField textarea {
+    font-size: 12px;
+    padding-left: 13px;
+}
+/*.inputTextField .MuiTextField-root .inputTextField {*/
+/*    font-size: 12px ;*/
+/*    border-radius: 4px;*/
+/*    !*width: 100%;*!*/
+/*    box-shadow:0px 4px 8px rgba(11, 42, 58, 0.12) ;*/
+/*}*/
+.telegramIcone {
+     cursor: pointer;
+     position: absolute;
+    padding: 5px 9px 5px 0;
+    background-color: #fff;
+     top: 4px;
+     right: 0;
+
+ }
+
+.MuiInput-underline:before {
+    border-bottom: 0;
+    display: none;
+}
+.commentDiv {
+    margin-left: 12px;
+}
+
+
+
+
+.inputContainer .divInputTextField .css-1llrfps-MuiInputBase-root-MuiInput-root {
+    padding: 3px 0 !important;
+}
+.inputContainer .divInputTextField .MuiInputBase-root {
+    width: 94%;
+}

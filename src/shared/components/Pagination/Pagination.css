@@ -1,0 +1,41 @@
+.divPag a {
+  text-decoration: none;
+}
+
+.divPag span {
+  color: black;
+}
+
+.divPag {
+  height: 41px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(11, 42, 58, 0.06);
+  border-radius: 6px;
+  background-color: white;
+  padding: 0 50px;
+}
+
+.divPag div {
+  /* display: inline; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+  min-width: 12px;
+  height: 20px;
+  border-radius: 1px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Montserrat";
+  font-weight: 600;
+  line-height: 15px;
+}
+
+.active div {
+  background-color: rgba(228, 240, 254, 1);
+  color: #3896C9;
+  font-weight: 700;
+  line-height: 15px;
+}

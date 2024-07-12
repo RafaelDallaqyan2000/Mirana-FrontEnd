@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.timesheetTableBox {
+    /*width: 851px;*/
+    /*overflow: hidden;*/
+    /*border: 1px solid chartreuse;*/
+}
+.timesheetTable{
+    padding:6px;
+    width: 851px;
+    /*overflow: hidden;*/
+}
+.timesheetTable thead {
+    display: block;
+}
+.timesheetTable tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5px;
+}
+.timesheetTable thead th{
+    margin-bottom: 19.5px;
+    /*width: 851px;*/
+}
+.timesheetTable thead th:first-child {
+    width: 27px;
+    padding: 0 17px 21px;
+    text-align: center;
+}
+.timesheetTable thead th:nth-child(2) {
+    word-break: break-all;
+    text-align: start;
+    width: 67px;
+    padding: 0 6px 21px;
+}
+.timesheetTable thead th:nth-child(3) {
+    width: 219px;
+    text-align: start;
+    padding: 0 21px 21px 21px;
+}
+.timesheetTable thead th:nth-child(4) {
+    text-align: start;
+    width: 65px;
+    padding: 0 5px 21px;
+}
+.timesheetTable thead th:nth-child(5) {
+    width: 63px;
+    padding: 0 20px 21px;
+    text-align: start;
+}
+.timesheetTable thead th:nth-child(6) {
+    width: 88px;
+    padding: 0 22px 21px;
+    text-align: start;
+}
+.timesheetTable thead th:nth-child(7) {
+    width: 70px;
+    padding: 0 10px 21px;
+    text-align: start;
+}
+
+
+.timesheetTable,
+.timesheetTable th {
+    background-color: #fff;
+    border-collapse: collapse;
+
+}
+
+
+.timesheetTable td {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    margin: 1.5px 0;
+}
+.timesheetTable .onlyDivTrue {
+    width: 851px;
+        /*height: 53px;*/
+        background: #FFFFFF;
+        box-shadow: 0px 4px 8px rgba(11, 42, 58, 0.16);
+        border-radius: 11px;
+        animation: dontEdit 1s alternate;
+}
+.onlyDivTrue td {
+    margin: 5px 0;
+}
+/*.timesheetTable .tableBody {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 2px;*/
+/*}*/
+.timesheetTable .onlyDivFalse {
+    background: rgba(56, 150, 201, 0.03);
+    /* Input hover shadow */
+    box-shadow: 0px 4px 12px rgba(56, 150, 201, 0.19);
+    border-radius: 11px;;
+}
+/*.timesheetTable thead > th:first-child,*/
+.timesheetTable .onlyDivTrue  > td:first-child,
+.timesheetTable .onlyDivFalse  > td:first-child {
+    /* min-width: 50px; */
+    width: 27px;
+    padding: 18px 17px ;
+    text-align: center;
+}
+
+.timesheetTable thead > th:nth-child(2),
+.timesheetTable .onlyDivTrue > td:nth-child(2),
+.timesheetTable .onlyDivFalse > td:nth-child(2) {
+    word-break: break-all;
+    text-align: start;
+}
+.timesheetTable thead > th:nth-child(3),
+.timesheetTable tr > td:nth-child(3) {
+    width: 219px;
+    text-align: start;
+}
+.timesheetTable tr > td:nth-child(3) p {
+    width: 219px;
+    padding: 3px 21px;
+}
+
+.timesheetTable thead > th:nth-child(4),
+.timesheetTable tr > td:nth-child(4) {
+    text-align: start;
+}
+.timesheetTable thead > th:nth-child(5),
+.timesheetTable tr > td:nth-child(5) {
+    text-align: start;
+}
+.timesheetTable thead > th:nth-child(6),
+.timesheetTable tr > td:nth-child(6) {
+    text-align: start;
+}
+/*.timesheetTable thead > th:nth-child(7),*/
+.timesheetTable .onlyDivTrue > td:nth-child(7),
+.timesheetTable .onlyDivFalse >td:nth-child(7) {
+    width: 74px;
+    padding-left: 10px;
+}
+
+.timesheetTable .onlyDivTrue > td:nth-child(8) div,
+.timesheetTable .onlyDivFalse >td:nth-child(8) div {
+    width: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+.timesheetTable .onlyDivTrue  > td:first-child,
+.timesheetTable .onlyDivFalse  > td:first-child{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: rgba(57, 58, 60, 0.8)
+}
+
+.timesheetTable tr > td:nth-child(2) {
+    word-break: break-all;
+    text-align: start;
+    width: 67px;
+    padding: 0 6px;
+}
+
+/*.timesheetTable .onlyDivTrue > td:nth-child(3),*/
+.timesheetTable .onlyDivFalse > td:nth-child(3) {
+    padding: 0 6px;
+}
+
+.timesheetTable .onlyDivTrue > td:nth-child(4),
+.timesheetTable .onlyDivFalse > td:nth-child(4) {
+    text-align: start;
+    width: 65px;
+    padding: 0 5px;
+}
+
+.timesheetTable .onlyDivTrue  > td:nth-child(5),
+.timesheetTable .onlyDivFalse > td:nth-child(5){
+    width: 63px;
+    padding: 0 20px;
+    text-align: start;
+}
+
+.timesheetTable .onlyDivTrue > td:nth-child(6),
+.timesheetTable .onlyDivFalse > td:nth-child(6){
+    width: 88px;
+    padding: 0 22px;
+    text-align: start;
+}

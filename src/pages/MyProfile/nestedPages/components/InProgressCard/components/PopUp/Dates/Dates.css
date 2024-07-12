@@ -1,0 +1,33 @@
+.datesContainer {
+    width: 212px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(11, 42, 58, 0.12);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.datesContainer .datesBoxInDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-left: 11px;
+}
+.datesContainer .datesBoxInDiv span {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;align-items: center;
+    color: rgba(64, 62, 58, 0.79);
+    padding: 6px 0;
+}
+.datesContainer .datesBoxInDiv > img {
+    width: 13px;
+    height: 13px;
+}
+.datesContainer .imgDiv {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}

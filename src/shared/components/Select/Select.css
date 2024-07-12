@@ -1,0 +1,14 @@
+div:not(.Mui-disabled).MuiOutlinedInput-root:hover > .MuiSelect-iconOutlined{
+    color: rgba(56, 150, 201, 0.8) ;
+}
+.Mui-disabled.MuiOutlinedInput-root > .MuiSelect-iconOutlined {
+    color : rgba(0, 0, 0, 0.17)
+}
+.MuiOutlinedInput-root:hover {
+    box-shadow: 0px 4px 12px rgba(56, 150, 201, 0.19);
+}
+
+@font-face {
+    font-family: MontserratMedium;
+    src: url("../../fonts/montserrat/Montserrat-Medium.ttf");
+}

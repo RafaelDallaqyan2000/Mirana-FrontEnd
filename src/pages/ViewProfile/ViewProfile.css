@@ -1,0 +1,34 @@
+
+.nav-item {
+    color: rgba(10, 12, 26, 0.56);
+    padding: 3px 12px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: Montserrat;
+    display: block;
+    cursor: pointer;
+}
+.active{
+    position:relative;
+    color : #3896C9
+}
+.nav-item.active::after {
+    content: "";
+    height: 1px;
+    bottom: -1.5px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    box-shadow: 3px 3px 6px rgba(56, 150, 201, 0.35);
+    border-bottom: 3px solid #3896C9;
+
+}
+td{
+    color:rgba(0,0,0,0.5);
+}
+/*.allTask:hover, .inProgress:hover, .about:hover {*/
+/*    color: cornflowerblue;*/
+/*}*/
+
+

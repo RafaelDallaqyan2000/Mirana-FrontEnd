@@ -1,0 +1,74 @@
+.addPersonContainer {
+    /*border: 1px solid indigo;*/
+    padding: 17px 0 17px 0; /* 10 14*/
+    background-color: #fff;
+    width: 260px;
+    height: 325px;
+    /*overflow: hidden;*/
+    box-shadow: 0px 4px 8px rgba(11, 42, 58, 0.16);
+    border-radius: 14px;
+}
+.addPersonContainer > .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 0 10px 0 14px;
+}
+.addPersonContainer > .header > img {
+    margin-right: 8px;
+}
+.addPersonContainer > .input {
+    box-shadow: 0 4px 8px rgba(11,42,58,0.16);
+    border-radius: 13px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 0 18px 0 14px;
+}
+.addPersonContainer > .input .MuiInput-input{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display : flex;
+    align-items: center;
+
+}
+.addPersonContainer .inputIcone {
+    color: rgba(0, 0, 0, 0.8);
+    padding: 0 10px;
+}
+.addPersonContainer > .header > span {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: rgba(10, 12, 26, 0.45);
+}
+.addPersonContainer > .body {
+    margin: 10px 0;
+    padding: 0 10px 0 14px;
+}
+.addPersonContainer > .body > span {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: rgba(10, 12, 26, 0.45);
+}
+.addPersonContainer .personsDiv {
+    height: 230px;
+    overflow: auto;
+}
+.addPersonContainer .personsDiv::-webkit-scrollbar {
+    width: 3px;
+    background: rgba(231, 231, 231, 0.4);
+}
+.addPersonContainer .personsDiv::-webkit-scrollbar-thumb {
+    background: rgba(231, 231, 231, 0.72);
+    border-radius: 6px;
+}

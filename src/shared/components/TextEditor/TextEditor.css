@@ -1,0 +1,66 @@
+.headerContainer {
+    width: 542px;
+    margin-left: 20px;
+}
+.headerContainer iframe {
+    min-height: 85px !important;
+}
+
+.mce-btn {
+    border: none !important;
+}
+.mce-active,
+.mce-active:hover button,
+.mce-active:hover {
+    background: rgba(56, 150, 201, 0.07) !important;
+}
+.mce-active .mce-ico:before {
+    color: #3896C9;
+}
+
+.mce-btn:active button,
+.mce-btn:hover button {
+    background: rgba(56, 150, 201, 0.07);
+    /*color: #3896C9 !important;/*/
+}
+.mce-active span, .mce-active i {
+    color: #3896C9 !important;
+}
+.mce-btn .mce-txt {
+    color: #3896C9;
+}
+.containerEditor .mce-menubar {
+    display: none;
+}
+.mce-container-body .mce-flow-layout > span {
+    color: #fff;
+}
+.mce-resizehandle > .mce-i-resize {  /* right-bottom icone*/
+    display: none;
+}
+
+.mce-panel {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(47, 142, 189, 0.08);
+    border-radius: 4px;
+    border: none !important;
+}
+.divOnButtons {
+    margin-top: 8px;
+    display: flex;
+    gap: 5px;
+}
+.divOnButtons .makeStyles-btn-9.MuiButton-outlinedPro {
+    font-variant: none !important;
+}
+.mce-widget .mce-btn .mce-first{
+    display: none;
+}
+/**::-webkit-scrollbar {*/
+/*    width: 6px;*/
+/*    background: rgba(231, 231, 231, 0.4);*/
+/*}*/
+/**::-webkit-scrollbar-thumb {*/
+/*    background: rgba(231, 231, 231, 0.72);*/
+/*    border-radius: 6px;*/
+/*}*/

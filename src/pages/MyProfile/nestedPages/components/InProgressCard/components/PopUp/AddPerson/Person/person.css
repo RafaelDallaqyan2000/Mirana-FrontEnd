@@ -1,0 +1,40 @@
+
+.personContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 10px 7px 14px;
+}
+.personContainer:hover {
+    background-color: rgba(56, 150, 201, 0.07);
+}
+.personContainer > .personDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.personContainer > .personDiv > .avatar {
+    width: 24px;
+    height: 24px;
+}
+.personContainer > .personDiv > span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: rgba(10, 12, 26, 0.89);
+}
+.personContainer > .add {
+    cursor: pointer;
+    display: none;
+    padding: 1px 0 1px 3px;
+}
+.personContainer > .add:hover {
+
+}
+.personContainer:hover .add{
+    display: inline;
+}

@@ -1,0 +1,64 @@
+.timesheetAddDetails {
+    width: 851px;
+    height: 131px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(11, 42, 58, 0.16);
+    border-radius: 7px;
+    margin-bottom: 37px;
+}
+
+.timesheet {
+
+    padding: 14px 15px 19px 27px;
+}
+.timesheet .timesheetHeader {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 14px;
+}
+.timesheet .css-daswe7-MuiInputBase-root-MuiInput-root {
+    box-shadow: none;
+}
+.timesheet .selectAndInputSpan {
+    margin-bottom: 6px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: rgba(57, 58, 60, 0.5);
+}
+.timesheet .divBody {
+    display: flex;
+    align-items: flex-end;
+}
+.timesheet .div1 {
+    margin-right: 16px;
+}
+.timesheet .div2 {
+    margin-right: 17px;
+}
+.timesheet .css-daswe7-MuiInputBase-root-MuiInput-root {
+    font-family: Montserrat;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    width: 461px;
+    height: 37px;
+    border: 0;
+    text-underline: none;
+    box-shadow: 0px 4px 8px rgba(11, 42, 58, 0.12);
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    font-size: 14px !important;
+}
+.timesheet .css-1x51dt5-MuiInputBase-input-MuiInput-input {
+    padding: 0 10px !important;
+}

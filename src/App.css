@@ -1,0 +1,36 @@
+.App {
+    overflow: hidden;
+}
+
+.Toastify__toast-container {
+    width: 350px;
+}
+
+.Toastify__spinner {
+    border-color: rgba(56, 150, 201, 0.24);
+    border-right-color: rgba(56, 150, 201, 1);
+}
+
+.Toastify__toast-icon {
+    padding: 10px 15px 10px 2px;
+    margin-right: 20px;
+    border-right: 1px solid #D9D9D9;
+}
+
+.Toastify .textToastr {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: rgba(64, 80, 81, 0.5);
+}
+
+.Toastify .headerToastr {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: rgba(64, 80, 81, 0.7);
+}
